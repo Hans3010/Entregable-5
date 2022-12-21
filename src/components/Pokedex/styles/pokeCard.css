@@ -1,0 +1,72 @@
+.poke-card{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 0.8em;
+    border: 0.4em solid #87aa3b;
+}
+.poke-card_header{
+    background-color: #aaa;
+    height: 150px;
+    position: relative;
+}
+.poke-card_sprite{
+    width: 60%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.poke-card_body{
+    padding-top: 2.5em;
+}
+.poke-card_name{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.poke-card_types-container{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+.poke-card_type{
+    position: relative;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.poke-card_type:nth-child(2)::before {
+    content: '/';
+    position: absolute;
+    left: -11px;
+}
+.poke-card_stats-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px 5px;
+}
+.poke-card_stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4em;
+}
+.poke-card_label{
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+.bg-grass {
+    background-image: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);;
+}
+.bg-fire {
+    background-image: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.border-grass {
+    border-color: #B1DBBC;
+}
+.color-grass {
+    color: #416460;
+}
