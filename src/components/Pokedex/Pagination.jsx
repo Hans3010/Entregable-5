@@ -3,7 +3,7 @@ import './styles/pagination.css'
 
 const Pagination = ({page, maxPage, setPage}) => {
 
-    const pagesPerBlock = 6
+    const pagesPerBlock = 7
     const currentBlock = Math.ceil(page / pagesPerBlock)
     const maxBlock = Math.ceil(maxPage / pagesPerBlock)
 

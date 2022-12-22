@@ -1,0 +1,50 @@
+.home_container{
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/021/500/833/large/mario-aceituno-carcasa-pokedex-completa.jpg?1571920182');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.home_img{
+    width: 45%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.home_title{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #FE1936;
+}
+.home_p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: #FE1936;
+}
+.home_form{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home_input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #FE1936;
+    border-radius: 10px;
+    outline: none;
+    text-transform: capitalize;
+}
+.home_btn{
+    padding: 15px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #FE1936;
+}

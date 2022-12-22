@@ -46,7 +46,6 @@ const PokeCard = ({url}) => {
         }
         </ul>
     </footer>
-
     </article>
    )
 }

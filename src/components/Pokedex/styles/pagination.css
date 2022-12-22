@@ -13,6 +13,6 @@
     cursor: pointer;
 }
 .page_active{
-    background-color: red;
+    background-color: #DD1A1A;
     color: white;
 }
